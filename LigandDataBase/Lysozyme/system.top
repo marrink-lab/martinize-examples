@@ -1,0 +1,37 @@
+; Include forcefield parameters
+#include "/coarse/fabian/martini_forcefields/martini_forcefields/regular/v3.0.0/gmx_files/martini_v3.0.0.itp"
+#include "/coarse/fabian/martini_forcefields/martini_forcefields/regular/v3.0.0/gmx_files/martini_v3.0.0_ions_v1.itp"
+#include "/coarse/fabian/martini_forcefields/martini_forcefields/regular/v3.0.0/gmx_files/martini_v3.0.0_solvents_v1.itp"
+#include "molecule_0.itp"
+
+[ moleculetype ]
+molecule_1 1
+
+[ atoms ]
+1 TC5 165 BENZ R1 1 0.0 
+2 TC5 165 BENZ R2 2 0.0 
+3 TC5 165 BENZ R3 3 0.0 
+
+[ constraints ]
+3 1 1 0.290
+1 2 1 0.290
+3 2 1 0.290
+
+#ifdef DPOSRES
+[ position_restraints ]
+1 1 1000 1000 1000
+2 1 1000 1000 1000
+3 1 1000 1000 1000
+#endif
+
+[ system ]
+; Name
+Title
+
+[ molecules ]
+; Compound	#mols
+molecule_0  	   1
+molecule_1  	   1
+NA   	          41
+CL   	          49
+W    	        3632
