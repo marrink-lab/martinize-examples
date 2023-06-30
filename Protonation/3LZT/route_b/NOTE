@@ -1,0 +1,4 @@
+When making bonds martinize2 is not able to correctly identify the binding atoms of the
+proton attached to GLU35, because the bond is ever so slightly shorter than usual. When
+setting the bond fudge factor to 1 martinize2 uses a more strict distance criterion needed
+here.
