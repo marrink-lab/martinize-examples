@@ -1,0 +1,3 @@
+Note that Lysine 6 contains one maleformed hydrogen, which causes the warning.
+In this case we can ignore the warning, since the correct Lysine parameters
+are generated.
