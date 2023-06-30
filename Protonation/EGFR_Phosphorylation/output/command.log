@@ -1,0 +1,24 @@
+    INFO - general - Read 1 molecules from PDB file ../2GS2_WT_model.pdb
+    INFO - step - Guessing the bonds.
+    INFO - general - 1 molecules after guessing bonds
+    INFO - step - Repairing the graph.
+    INFO - general - Applying modification N-ter to residue -GLY693
+    INFO - general - Applying modification C-ter to residue -GLY1022
+    INFO - step - Dealing with modifications.
+    INFO - general - Identified the modifications ['N-ter'] on residues ['GLY693', 'GLY693', 'GLY693', 'GLY693']
+    INFO - general - Identified the modifications ['C-ter'] on residues ['GLY1022', 'GLY1022', 'GLY1022']
+    INFO - step - Read input.
+    INFO - step - Creating the graph at the target resolution.
+    INFO - general - Applying modification mapping ('C-ter',)
+    INFO - general - Applying modification mapping ('N-ter',)
+ WARNING - unmapped-atom - These atoms are not covered by a mapping. Either your mappings don't describe all atoms (bad idea), or, there's no mapping available for all residues. ['1537-HIS888:ND1', '1538-HIS888:CE1', '1539-HIS888:NE2', '1578-HIS893:N', '1579-HIS893:CA', '1580-HIS893:C', '1581-HIS893:O', '1582-HIS893:CB', '1583-HIS893:CG', '1584-HIS893:CD2', '1585-HIS893:ND1', '1586-HIS893:CE1', '1587-HIS893:NE2', '1113-HIS835:N', '1114-HIS835:CA', '1115-HIS835:C', '1116-HIS835:O', '1117-HIS835:CB', '1118-HIS835:CG', '1119-HIS835:CD2', '1120-HIS835:ND1', '1121-HIS835:CE1', '1122-HIS835:NE2', '612-HIS773:N', '613-HIS773:CA', '614-HIS773:C', '615-HIS773:O', '616-HIS773:CB', '617-HIS773:CG', '618-HIS773:CD2', '619-HIS773:ND1', '620-HIS773:CE1', '621-HIS773:NE2', '1233-HIS850:N', '1234-HIS850:CA', '1235-HIS850:C', '1236-HIS850:O', '1237-HIS850:CB', '1238-HIS850:CG', '1239-HIS850:CD2', '1240-HIS850:ND1', '1241-HIS850:CE1', '1242-HIS850:NE2', '2352-HIS988:N', '2353-HIS988:CA', '2354-HIS988:C', '2355-HIS988:O', '2356-HIS988:CB', '2357-HIS988:CG', '2358-HIS988:CD2', '2359-HIS988:ND1', '2360-HIS988:CE1', '2361-HIS988:NE2', '863-HIS805:N', '864-HIS805:CA', '865-HIS805:C', '866-HIS805:O', '867-HIS805:CB', '868-HIS805:CG', '869-HIS805:CD2', '870-HIS805:ND1', '871-HIS805:CE1', '872-HIS805:NE2', '1392-HIS870:N', '1393-HIS870:CA', '1394-HIS870:C', '1395-HIS870:O', '1396-HIS870:CB', '1397-HIS870:CG', '1398-HIS870:CD2', '1399-HIS870:ND1', '1400-HIS870:CE1', '1401-HIS870:NE2', '1530-HIS888:N', '1531-HIS888:CA', '1532-HIS888:C', '1533-HIS888:O', '1534-HIS888:CB', '1535-HIS888:CG', '1536-HIS888:CD2']
+    INFO - step - Averaging the coordinates.
+    INFO - step - Applying the links.
+    INFO - step - Placing the charge dummies.
+    INFO - step - Setting the rubber bands.
+    INFO - step - Sorting atomids
+    INFO - step - Writing output.
+    INFO - general - Please cite: Monticelli, L; Kandasamy, S K; Periole, X; Larson, R G; Tieleman, D P; Marrink, S J;  Journal of chemical theory and computation 2008
+    INFO - general - Please cite: Marrink, S J; Risselada, H J; Yefimov, S; Tieleman, D P; De Vries, A H;  The journal of physical chemistry B 2007
+    INFO - general - Please cite: de Jong, D H; Singh, G; Bennett, W D; Arnarez, C; Wassenaar, T A; Schaefer, L V; Periole, X; Tieleman, D P; Marrink, S J;  Journal of chemical theory and computation 2013
+    INFO - general - The bitters are excellent for your liver, the gin is bad for you. They balance each other. -- Orson Welles
