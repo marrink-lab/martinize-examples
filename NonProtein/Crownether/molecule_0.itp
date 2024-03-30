@@ -1,0 +1,39 @@
+; This file was generated using the following command:
+; /Users/fabian/ProgramDev/dev_env/bin/martinize2 -f CRE.gro -ff martini2_CNP -x CRE_cg.pdb -o topol.top -ff-dir ../forcefields/ -map-dir ../mappings/ -from uff -ignh -maxwarn 3
+; martinize with vermouth 0.9.7.dev162
+; The following sequence of secondary structure 
+; was used for the full system:
+; 
+
+; Please cite the following papers:
+
+[ moleculetype ]
+molecule_0 1
+
+[ atoms ]
+1 EO 1 PEO COC 1 0.0 45.0
+2 EO 2 PEO COC 2 0.0 45.0
+3 EO 3 PEO COC 3 0.0 45.0
+4 EO 4 PEO COC 4 0.0 45.0
+5 EO 5 PEO COC 5 0.0 45.0
+6 EO 6 PEO COC 6 0.0 45.0
+
+[ bonds ]
+2 1 1 0.322 7000 ; circle
+3 2 1 0.322 7000 ; circle
+4 3 1 0.322 7000 ; circle
+5 4 1 0.322 7000 ; circle
+6 1 1 0.322 7000 ; circle
+6 5 1 0.322 7000 ; circle
+
+[ angles ]
+3 2 1 10 135.00 75.0
+4 3 2 10 135.00 75.0
+5 4 3 10 135.00 75.0
+6 5 4 10 135.00 75.0
+
+[ dihedrals ]
+4 3 2 1 1 0 0.12 4
+5 4 3 2 1 0 0.12 4
+6 5 4 3 1 0 0.12 4
+

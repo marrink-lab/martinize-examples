@@ -1,0 +1,28 @@
+[ moleculetype ]
+; name nexcl.
+PEO         1
+;
+[ atoms ]
+1  EO    1   PEO   COC  1   0.000  45
+
+
+[ link ]
+resname "PEO"
+[ bonds ]
+; back bone bonds
+COC  <COC   1   0.322 7000 {"comment": "circle"}
+;
+[ link ]
+resname "PEO"
+[ angles ]
+;
+COC	<COC	<<COC	2	135.00 	50.0
+COC <COC    <<COC   10  135.00  75.0
+;
+[ link ]
+resname "PEO"
+[ dihedrals ]
+COC  <COC  <<COC  <<<COC     1    180.00    1.96   1
+COC  <COC  <<COC  <<<COC     1     0        0.18   2  
+COC  <COC  <<COC  <<<COC     1     0        0.33   3
+COC  <COC  <<COC  <<<COC     1     0        0.12   4 

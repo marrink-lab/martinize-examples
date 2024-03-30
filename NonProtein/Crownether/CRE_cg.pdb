@@ -1,0 +1,13 @@
+ATOM      1 COC  PEO     1      -2.200   3.427  -0.017  1.00  0.00              
+ATOM      2 COC  PEO     2       0.077   1.063  -0.203  1.00  0.00              
+ATOM      3 COC  PEO     3      -0.987  -2.087   0.040  1.00  0.00              
+ATOM      4 COC  PEO     4      -4.250  -2.877  -0.237  1.00  0.00              
+ATOM      5 COC  PEO     5      -6.500  -0.527   0.210  1.00  0.00              
+ATOM      6 COC  PEO     6      -5.470   2.607  -0.147  1.00  0.00              
+TER       7      PEO     6 
+CONECT    1    2    6
+CONECT    2    3
+CONECT    3    4
+CONECT    4    5
+CONECT    5    6
+END   

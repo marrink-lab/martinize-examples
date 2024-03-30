@@ -1,0 +1,53 @@
+;;; PE backbone
+
+[ moleculetype ]
+; molname       nrexcl
+PE               1
+[ atoms ]
+;id type resnr residu atom cgnr   charge
+  1 C-3 0 PE  C0  2 0 
+  2 C-3 0 PE  C1  2 0 
+  3 C-3 0 PE  C2  2 0 
+  4 C-3 0 PE  C3  2 0 
+[ bonds ]
+C0 C1
+C1 C2
+C2 C3
+
+;;; PE branch
+
+[ moleculetype ]
+; molname       nrexcl
+PEB               1
+[ atoms ]
+  1 C-3 0 PEB  C0  2 0 
+  2 C-3 0 PEB  C1  2 0 
+  3 C-3 0 PEB  C2  2 0 
+  4 C-3 0 PEB  C3  2 0 
+[ bonds ]
+C0 C1
+C1 C2
+C2 C3
+
+
+;;; PEO 
+
+[ moleculetype ]
+; molname       nrexcl
+PEO               1
+[ atoms ]
+;id type resnr residu atom cgnr   charge
+  1 C-3 0 PEO  C1  2 0 
+  2 H-1 0 PEO  H2  2 0 
+  3 H-1 0 PEO  H3  2 0 
+  4 O-3 0 PEO  O4  2 0 
+  5 C-3 0 PEO  C5  2 0 
+  6 H-1 0 PEO  H6  2 0 
+  7 H-1 0 PEO  H7  2 0 
+[ bonds ]
+C1 H2
+C1 H3
+C1 O4
+O4 C5
+C5 H6
+C5 H7

@@ -1,0 +1,42 @@
+;;; PE backbone
+
+[ moleculetype ]
+; molname       nrexcl
+PE               1
+[ atoms ]
+;id type resnr residu atom cgnr   charge
+ 1   C1   1     PE    CB     1      0
+
+;;; PE branch
+
+[ moleculetype ]
+; molname       nrexcl
+PEB               1
+[ atoms ]
+;id type resnr residu atom cgnr   charge
+ 1   SC1   1     PEB    SCB     1      0
+
+;;; backbone links
+
+[ link ]
+resname "PE"
+[ bonds ]
+CB  >CB   1 0.46  2000
+[ link ]
+resname "PE"
+[ angles ]
+CB  >CB >>CB  2 180  82
+[ link ]
+resname "PE"
+[ dihedrals ]
+CB  >CB >>CB >>>CB  10 −19.666 0.509 1.120 −0.04408 −0.02016
+
+;;; side-chain links
+[ link ]
+resname "PE|PEB"
+[ bonds ]
+CB  >SCB   1 0.46  2000
+[ link ]
+resname "PE|PEB"
+[ angles ]
+CB  >CB >>SCB  2 180  82
