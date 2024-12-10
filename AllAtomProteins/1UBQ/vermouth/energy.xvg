@@ -1,0 +1,35 @@
+# This file was created Mon Nov 25 15:41:17 2024
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /hits/fast/mbm/broszms/software/gromacs-2023-cascade/bin/gmx
+# Data prefix:  /hits/fast/mbm/broszms/software/gromacs-2023-cascade
+# Working dir:  /hits/fast/mbm/gruenefn/ProgramDev/martinize-examples/AllAtomProteins/charmm36/vermouth
+# Command line:
+#   gmx energy -f ener
+# gmx energy is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Bond"
+@ s1 legend "U-B"
+@ s2 legend "Proper Dih."
+@ s3 legend "Improper Dih."
+@ s4 legend "CMAP Dih."
+@ s5 legend "LJ-14"
+@ s6 legend "Coulomb-14"
+@ s7 legend "LJ (SR)"
+@ s8 legend "Coulomb (SR)"
+@ s9 legend "Coul. recip."
+@ s10 legend "Potential"
+    0.000000  1106.215210  1702.692383  3039.373535   45.093563  -105.382172  1166.967529  12809.382812  237.029480  -22065.781250  1921.595825  -142.812378

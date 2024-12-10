@@ -1,0 +1,37 @@
+[ modification ]
+C-ter
+[ atoms ]
+CA {"element": "C"}
+C {"element": "C", "replace": {"atype": "CC", "charge": 0.34}}
+O {"element": "O", "replace": {"atomname": "OT1", "atype": "OC", "charge": -0.67}}
+OT2 {"element": "O", "PTM_atom": true, "atype": "OC", "charge": -0.67}
+[ edges ]
+CA C
+O C
+C OT2
+[ bonds ]
+C OT2 1
+;C O 1
+[ impropers ]
+C CA OT2 O 2
+
+[ modification ]
+N-ter
+[ atoms ]
+CA {"element": "C", "replace": {"charge": 0.21, "atype": "CT1"}}
+HA {"element": "H", "replace": {"charge": 0.1, "atype": "HB1"}}
+N {"element": "N", "replace": {"charge": -0.3, "atype": "NH3"}}
+HN {"element": "H", "replace": {"atomname": "H1", "atype": "HC", "charge": 0.33}}
+HN2 {"element": "H", "PTM_atom": true, "replace": {"atomname": "H2", "atype": "HC", "charge": 0.33}}
+HN3 {"element": "H", "PTM_atom": true, "replace": {"atomname": "H3", "atype": "HC", "charge": 0.33}}
+[ edges ] 
+N CA
+CA HA
+N HN
+N HN2
+N HN3
+[ bonds ]
+N CA 1
+N HN 1
+N HN2 1
+N HN3 1
