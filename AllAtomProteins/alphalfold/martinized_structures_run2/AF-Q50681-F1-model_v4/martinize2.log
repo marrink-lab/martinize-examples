@@ -1,0 +1,130 @@
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue CYSP in force field charmm because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ALA in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLY in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue SER in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue THR in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue LEU in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ILE in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue VAL in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ASN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ARG in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HID in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HIE in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HIP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue TRP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue PHE in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue TYR in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLU in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ASP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue LYS in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ORN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue DAB in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue LYN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue PRO in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HYP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue CYS in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue CYM in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue CYX in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue MET in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ASH in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLH in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CDX for link defined in residue 4FB in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue 8LJ in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue DORN in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA H for link defined in residue DYA in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue FGL in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CDX for link defined in residue FP9 in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue GL3 in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue HZP in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CB for link defined in residue I4G in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CM for link defined in residue MAA in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue MP8 in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue PRS in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue PXU in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms +N C +CA +HN for link defined in residue ACE in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms -C CH3 N -O for link defined in residue NME in force field charmm36-jul2022-vermouth.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CDX for link defined in residue 4FB in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue 8LJ in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue DORN in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA H for link defined in residue DYA in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue FGL in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CDX for link defined in residue FP9 in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA HN for link defined in residue GL3 in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue HZP in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CB for link defined in residue I4G in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CM for link defined in residue MAA in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue MP8 in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue PRS in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms N -C CA CD for link defined in residue PXU in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms +N C +CA +HN for link defined in residue ACE in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms -C CH3 N -O for link defined in residue NME in force field charmm36-jul2022-patched.ff because it is disconnected.
+    INFO - general - Read 1 molecules from PDB file AF-Q50681-F1-model_v4.pdb
+    INFO - step - Guessing the bonds.
+    INFO - general - 1 molecules after guessing bonds
+    INFO - step - Repairing the graph.
+    INFO - general - Applying modification N-ter to residue -MET1
+    INFO - general - Applying modification C-ter to residue -PRO431
+    INFO - step - Dealing with modifications.
+    INFO - general - Identified the modifications ['N-ter'] on residues ['MET1', 'MET1']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS8']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS135']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS151']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS165']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS196']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS201']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS206']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS221']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS230']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS235']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS242']
+    INFO - general - Identified the modifications ['HIS-HD'] on residues ['HIS244']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS265']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS310']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS323']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS341']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS353']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS377']
+    INFO - general - Identified the modifications ['HIS-HP'] on residues ['HIS390']
+    INFO - general - Identified the modifications ['HIS-HE'] on residues ['HIS402']
+    INFO - general - Identified the modifications ['HIS-HD'] on residues ['HIS419']
+    INFO - general - Identified the modifications ['C-ter'] on residues ['PRO431', 'PRO431', 'PRO431']
+    INFO - step - Read input.
+    INFO - step - Creating the graph at the target resolution.
+ WARNING - inconsistent-data - Overlapping modification mappings
+ WARNING - inconsistent-data - Overlapping modification mappings
+    INFO - general - Applying modification mapping ('N-ter',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('HIS-HD',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HD',)
+    INFO - general - Applying modification mapping ('HIS-HP',)
+    INFO - general - Applying modification mapping ('HIS-HE',)
+    INFO - general - Applying modification mapping ('HIS-HD',)
+    INFO - general - Applying modification mapping ('C-ter',)
+ WARNING - inconsistent-data - The input particle 6001-HIS390:HE2 maps to multiple output particles: {'-HIS390:HE2'}, which are disconnected. There are probably edges missing.
+ WARNING - inconsistent-data - The input particle 6003-HIS390:HD1 maps to multiple output particles: {'-HIS390:HD1'}, which are disconnected. There are probably edges missing.
+    INFO - step - Averaging the coordinates.
+    INFO - step - Applying the links.
+    INFO - step - Placing the charge dummies.
+    INFO - step - Generating implicit interactions for RTP force field
+    INFO - step - Sorting atomids
+    INFO - step - Writing output.
+    INFO - general - Please cite: Kroon, P C; Grunewald, F; Barnoud, J; van Tilburg, M; Souza, P C; Wassenaar, T A; Marrink, S J;  elife 2024; 10.7554/elife.90627.2
+    INFO - general - A martini should always be stirred, not shaken, so that the molecules lie sensuously on top of one another. -- Somerset Maugham

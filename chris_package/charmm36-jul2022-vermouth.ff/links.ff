@@ -1,0 +1,18 @@
+[ link ]
+resname "CYS"
+[ atoms ]
+ CB { "replace": {"charge": -0.1000}}
+ SG { "replace": {"atype": "SM", "charge": -0.0800}}
+ HG1 { "replace": {"atomname": null} }
+>SG { "replace": {"atype": "SM", "charge": -0.0800}}
+>HG1 { "replace": {"atomname": null}}
+>CB { "replace": {"charge": -0.1000}}
+[ edges ]
+CB SG
+HG1 SG
+SG >SG
+>SG >HG1
+>SG >CB
+[ bonds ]
+SG >SG 1
+

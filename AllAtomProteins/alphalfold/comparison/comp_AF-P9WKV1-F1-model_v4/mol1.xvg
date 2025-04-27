@@ -1,0 +1,32 @@
+# This file was created Wed Apr 16 10:06:27 2025
+# Created by:
+#              :-) GROMACS - gmx energy, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /hits/fast/mbm/gruenefn/ProgramDev/martinize-examples/AllAtomProteins/alphalfold/comparison/comp_AF-P9WKV1-F1-model_v4
+# Command line:
+#   gmx energy -f mol1.edr -o mol1.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Bond"
+@ s1 legend "U-B"
+@ s2 legend "Proper Dih."
+@ s3 legend "Improper Dih."
+@ s4 legend "CMAP Dih."
+@ s5 legend "LJ-14"
+@ s6 legend "Coulomb-14"
+@ s7 legend "Coulomb (SR)"
+    0.000000  40738.546875  8982.687500  14637.062500  239.957306  -378.184631  5017.224121  36461.703125  -93889.976562

@@ -44,16 +44,19 @@ def align_coordinates(itp_file, ref_file, outname, polymer):
     Note the PDB file must have connect records. Order, atom names,
     residue names are all ignored.
     """
+    print(itp_file)
     # create empty system
     ref_sys = vermouth.System()
     # load PDB and add edges to ref molecule
     vermouth.PDBInput(str(ref_file), modelidx=1).run_system(ref_sys)
     MakeBonds(allow_name=False,  allow_dist=False).run_system(ref_sys)
     ref_mol = ref_sys.molecules[0]
+    print(len(ref_mol.edges))
     # load the target molecule
     top = Topology.from_gmx_topfile(itp_file, "polymer")
     target_mol = top.molecules[0].molecule
-    #target_mol.make_edges_from_interaction_type(type_="bonds")
+    target_mol.make_edges_from_interaction_type(type_="bonds")
+    print(len(target_mol.edges))
     # assign elements to target_mol
     for node in target_mol.nodes:
         element = target_mol.nodes[node]['atomname'][0]

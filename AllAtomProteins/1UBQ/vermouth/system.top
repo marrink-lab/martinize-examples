@@ -1,8 +1,0 @@
-#include "../gmx/charmm36-jul2022.ff/forcefield.itp"
-#include "molecule_0.itp"
-
-[ system ]
-single 1UBQ protein
-
-[ molecules ]
-molecule_0 1

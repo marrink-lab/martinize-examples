@@ -1,0 +1,203 @@
+
+; ;;;;;;;;;;;;;;;;;;;;;;;;;
+;  GLU/ASP MODIFICATIONS
+; ;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ modification ]
+GLU-HE2
+[ atoms ]
+CG {"resname": "GLU", "element":"C", "replace":   {"charge": -0.21}}
+CD {"resname": "GLU", "element":"C", "replace":   {"charge": 0.75, "atype": "CD"}}
+OE1 {"resname": "GLU", "element": "O", "replace": {"charge": -0.55, "atype": "OB"}}
+OE2 {"resname": "GLU", "element": "O", "replace": {"charge": -0.61, "atype": "OH1"}}
+HE2 {"element": "H", "PTM_atom": true, "atype": "H", "charge": 0.44}
+[ edges ]
+CG CD
+CD OE1
+CD OE2
+OE2 HE2
+[ bonds ]
+OE2 HE2 1
+
+[ modification ]
+GLU-HE1
+[ atoms ]
+CG {"resname": "GLU", "element":"C", "replace":   {"charge": -0.21}}
+CD {"resname": "GLU", "element":"C", "replace":   {"charge": 0.75, "atype": "CD"}}
+OE2 {"resname": "GLU", "element": "O", "replace": {"charge": -0.55, "atype": "OB"}}
+OE1 {"resname": "GLU", "element": "O", "replace": {"charge": -0.61, "atype": "OH1"}}
+HE1 {"element": "H", "PTM_atom": true, "atype": "H", "charge": 0.44}
+[ edges ]
+CG CD
+CD OE1
+CD OE2
+OE1 HE1
+[ bonds ]
+OE1 HE1 1
+
+[ modification ]
+ASP-HD2
+[ atoms ]
+CB {"resname": "ASP", "element":"C", "replace":   {"charge": -0.21}}
+CG {"resname": "ASP", "element":"C", "replace":   {"charge": 0.75, "atype": "CD"}}
+OD1 {"resname": "ASP", "element": "O", "replace": {"charge": -0.55, "atype": "OB"}}
+OD2 {"resname": "ASP", "element": "O", "replace": {"charge": -0.61, "atype": "OH1"}}
+HD2 {"element": "H", "PTM_atom": true, "atype": "H", "charge": 0.44}
+[ edges ]
+CB CG
+CG OD1
+CG OD2
+OD2 HD2
+[ bonds ]
+OD2 HD2 1
+
+[ modification ]
+ASP-HD1
+[ atoms ]
+CB {"resname": "ASP", "element":"C", "replace":   {"charge": -0.21}}
+CG {"resname": "ASP", "element":"C", "replace":   {"charge": 0.75, "atype": "CD"}}
+OD2 {"resname": "ASP", "element": "O", "replace": {"charge": -0.55, "atype": "OB"}}
+OD1 {"resname": "ASP", "element": "O", "replace": {"charge": -0.61, "atype": "OH1"}}
+HD1 {"element": "H", "PTM_atom": true, "atype": "H", "charge": 0.44}
+[ edges ]
+CB CG
+CG OD1
+CG OD2
+OD1 HD1
+[ bonds ]
+OD1 HD1 1
+
+; ;;;;;;;;;;;;;;;;;;;;;;;;;
+;  LYS MODIFICATIONS
+; ;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ modification ]
+LYS-HZ3
+[ atoms ]
+NZ  {"resname": "LYS", "element": "N"}
+HZ1 {"resname": "LYS", "element": "H", "PTM_atom": true, "atype": "HC", "charge": 0.33}
+HZ2 {"resnmae": "LYS", "element": "H", "PTM_atom": true,  "atype": "HC", "charge": 0.33}
+HZ3 {"resnmae": "LYS", "element": "H", "PTM_atom": true,  "atype": "HC", "charge": 0.33}
+[ edges ]
+NZ HZ1
+NZ HZ2
+NZ HZ3
+[ bonds ]
+NZ HZ1 1
+NZ HZ2 1
+NZ HZ3 1
+
+[ modification ]
+LYS-LSN
+[ atoms ]
+CE {"resname": "LYS", "element": "C", "replace": {"charge": 0.13}}
+HE1 {"resname": "LYS", "element": "C", "replace": {"charge": 0.075}}
+HE2 {"resname": "LYS", "element": "C", "replace": {"charge": 0.075}}
+NZ  {"resname": "LYS", "element": "N", "replace": {"charge": -0.96, "atype": "NH2"}}
+HZ1 {"resname": "LYS", "element": "H", "PTM_atom": true,  "atype": "HC", "charge": 0.34}
+HZ2 {"resname": "LYS", "element": "H", "PTM_atom": true,  "atype": "HC", "charge": 0.34}
+[ edges ]
+CE NZ
+CE HE1
+CE HE2
+NZ HZ1
+NZ HZ2
+[ bonds ]
+NZ HZ2 1
+NZ HZ1 1
+
+
+; ;;;;;;;;;;;;;;;;;;;;;;;;;
+;  HISTIDINE MODIFICATIONS
+; ;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[ modification ]
+HIS-HP
+[ atoms ]
+CB {"resname": "HIS", "element": "C", "replace":  {"charge": -0.05}}
+CD2 {"resname": "HIS", "element": "C", "replace": {"charge": 0.19}}
+HE2 {"resname": "HIS", "element": "H", "PTM_atom": true,  "atype": "HR1", "charge": 0.1300}
+CG {"resname": "HIS", "element": "C", "replace": {"charge": 0.19}}
+NE2 {"resname": "HIS", "element": "N", "replace": {"charge": -0.51, "atype": "NR3"}}
+HD2 {"resname": "HIS", "element": "H", "replace":{"atype": "H", "charge": 0.44}}
+ND1 {"resname": "HIS", "element": "N", "replace": {"charge": -0.51, "atype": "NR3"}}
+HD1 {"resname": "HIS", "element": "H", "PTM_atom": true, "atype": "H", "charge": 0.44}
+CE1 {"resname": "HIS", "element": "C", "replace": {"charge": 0.32}}
+HE1 {"resname": "HIS", "element": "H", "replace": {"charge": 0.18, "atype": "HR2"}}
+[ edges ]
+CG CB
+ND1 CG
+CE1 ND1
+NE2 CD2
+ND1 HD1
+NE2 HE2
+CD2 HD2
+CD2 CG
+NE2 CE1
+CE1 HE1
+CG CD2
+[ bonds ]
+ND1 HD1 1
+NE2 HE2 1
+
+[ modification ]
+HIS-HD
+[ atoms ]
+CB  {"resname": "HIS", "element": "C", "replace": {"charge": -0.09}}
+ND1 {"resname": "HIS", "element": "N", "replace": {"charge": -0.36, "atype": "NR1"}}
+HD1 {"resname": "HIS", "element": "H", "PTM_atom": true, "atype": "H", "charge": 0.3200}
+CG {"resname": "HIS", "element": "C", "replace": {"charge": -0.05}}
+NE2 {"resname": "HIS", "element": "N", "replace": {"charge": -0.7, "atype": "NR2"}}
+CE1 {"resname": "HIS", "element": "C"}
+CD2 {"resname": "HIS", "element": "C", "replace": {"charge": 0.22}}
+HD2 {"resname": "HIS", "element": "H", "replace": {"charge": 0.1}}
+[ edges ]
+CG CB
+ND1 CG
+CE1 ND1
+NE2 CD2
+ND1 HD1
+CE1 NE2
+CD2 HD2
+CG CD2
+[ bonds ]
+ND1 HD1 1
+
+[ modification ]
+HIS-HE
+[ atoms ]
+CB  {"resname": "HIS", "element": "C", "replace": {"charge": -0.09}}
+ND1 {"resname": "HIS", "element": "N", "replace": {"charge": -0.36, "atype": "NR2"}}
+CG {"resname": "HIS", "element": "C", "replace": {"charge": -0.05}}
+NE2 {"resname": "HIS", "element": "N", "replace": {"charge": -0.7, "atype": "NR1"}}
+CE1 {"resname": "HIS", "element": "C"}
+CD2 {"resname": "HIS", "element": "C", "replace": {"charge": 0.22}}
+HE2 {"resname": "HIS", "element": "H", "PTM_atom": true, "atype": "H", "charge": 0.3200}
+HD2 {"resname": "HIS", "element": "H", "replace": {"charge": 0.1}}
+[ edges ]
+CG CB
+ND1 CG
+CE1 ND1
+NE2 CD2
+CE1 NE2
+CG CD2
+NE2 HE2
+CD2 HD2
+[ bonds ]
+NE2 HE2 1
+[ impropers ]
+NE2   CD2   CE1   HE2 -- 2
+NE2   CE1   CD2   HE2 -- 2
+
+;[ modification ]
+;CYS-PROT
+;[ atoms ]
+;CB {"resname": "CYS", "element": "C", "repalce": {"charge": -0.11}}
+;SG {"resname": "CYS", "element": "S", "replace": {"charge": -0.23, "atype": "S"}}
+;HG1 {"resname": "CYS", "element": "H", "PTM_atom": true, "atype": "HS", "charge": 0.16}
+;[ edges ]
+;CB SG
+;SG HG1
+;[ bonds ]
+;SG HG1 1

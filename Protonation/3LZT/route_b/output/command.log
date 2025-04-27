@@ -1,3 +1,33 @@
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ALA in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLY in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue SER in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue THR in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue LEU in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ILE in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue VAL in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ASN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ARG in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HID in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HIE in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HIP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue TRP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue PHE in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue TYR in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLU in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ASP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue LYS in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ORN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue DAB in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue LYN in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue PRO in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue HYP in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue CYS in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue CYM in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue CYX in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue MET in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue ASH in force field amber because it is disconnected.
+    INFO - inconsistent-data - Discarding impropers between atoms CA +N C O for link defined in residue GLH in force field amber because it is disconnected.
     INFO - general - Read 1 molecules from PDB file ../charmm-gui-3lzt.pdb
     INFO - step - Guessing the bonds.
     INFO - general - 1 molecules after guessing bonds
@@ -6,12 +36,23 @@
     INFO - general - Applying modification C-ter to residue -LEU129
     INFO - step - Dealing with modifications.
     INFO - general - Identified the modifications ['N-ter'] on residues ['LYS1', 'LYS1', 'LYS1', 'LYS1']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS13']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS33']
     INFO - general - Identified the modifications ['GLU-HE2'] on residues ['GLU35']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS96']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS97']
+    INFO - general - Identified the modifications ['LYS-HZ3'] on residues ['LYS116']
     INFO - general - Identified the modifications ['C-ter'] on residues ['LEU129', 'LEU129', 'LEU129']
     INFO - step - Read input.
+ WARNING - general - The scfix argument has been deprecated and will be removed in the future. Side chain fixing is now assumed by default, so no flag needs to be passed. If you do not want side chain fixes to be applied, the -noscfix flag can be used.
     INFO - step - Creating the graph at the target resolution.
     INFO - general - Applying modification mapping ('N-ter',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
     INFO - general - Applying modification mapping ('GLU-HE2',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
+    INFO - general - Applying modification mapping ('LYS-HZ3',)
     INFO - general - Applying modification mapping ('C-ter',)
     INFO - step - Averaging the coordinates.
     INFO - step - Applying the links.
@@ -19,4 +60,5 @@
     INFO - step - Sorting atomids
     INFO - step - Writing output.
     INFO - general - Please cite: Souza, P C T; Alessandri, R; Barnoud, J; Thallmair, S; Faustino, I; Grünewald, F; Patmanidis, I; Abdizadeh, H; Bruininks, B M H; Wassenaar, T A; Kroon, P C; Melcr, J; Nieto, V; Corradi, V; Khan, H M; Domański, J; Javanainen, M; Martinez-Seara, H; Reuter, N; Best, R B; Vattulainen, I; Monticelli, L; Periole, X; Tieleman, D P; de Vries, A H; Marrink, S J;  Nature Methods 2021; 10.1038/s41592-021-01098-3
-    INFO - general - A perfect Martini should be made by filling a glass with gin, and then waving it in the general direction of Italy. -- Noël Coward
+    INFO - general - Please cite: McGibbon, R T; Beauchamp, K A; Harrigan, M P; Klein, C; Swails, J M; Hernández, C X; Schwantes, C R; Wang, L; Lane, T J; Pande, V S;  Biophysical Journal 2015; 10.1016/j.bpj.2015.08.015
+    INFO - general - Gin, not vodka, obviously, stirred for ten seconds while glancing at an unopened bottle of vermouth. -- (Kingsman: The Secret Service)

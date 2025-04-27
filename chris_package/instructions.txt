@@ -1,0 +1,8 @@
+- install the following branch https://github.com/marrink-lab/vermouth-martinize/pull/663
+- run martinize2 command in test_case as follows:
+
+martinize2 -f AF-I6X9F4-F1-model_v4.pdb -ff-dir ../ -ff charmm36-jul2022-vermouth.ff -noscfix -from charmm36-jul2022-vermouth.ff -x out.pdb -o topol.top
+
+- there should be 1 cystine bridge
+- parameters for that are in charmm36-jul2022-vermouth.ff/links.ff
+- to check run compare.py <itp_file> <moleculetype> for the ref.itp and molecule_0.itp

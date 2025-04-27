@@ -24,10 +24,11 @@ for inter in mol.interactions["dihedrals"]:
     count = counts.get(fdx, 0)
     counts[fdx] = count + 1
 
+print(counts)
 print("Dihedals")
 for idx, n in counts.items():
     print(idx, n)
-
+print("---")
 total=0
 for resid in range(1, 6):
     cg=0

@@ -1,0 +1,39 @@
+
+ 965  963  967  966 2
+ 965  967  963  966 2
+ 968  964  967  969 2
+
+CPH2 (CE1) NR3 (ND1) NR3 (NE2) HR2 (HE1) 
+
+970 968 966 971
+
+
+ 968  967  964  969 2
+ CD2  NE2  CG   HR1
+
+;      CE1   ND1   NE2   HE1
+;      CD2   NE2    CG   HD2
+
+
+> HSE
+ CE1   ND1   NE2   HE1        
+  CE1   NE2   ND1   HE1
+
+
+  [ impropers ]                                                                                            |~                                                                                                         
+;      NE2   CD2   CE1   HE2                                                                               |~                                                                                                         
+      CD2    CG   NE2   HD2                                                                                |~                                                                                                         
+;      CE1   ND1   NE2   HE1                                                                               |~                                                                                                         
+;      NE2   CE1   CD2   HE2                                                                               |~                                                                                                         
+      CD2   NE2    CG   HD2                                                                                |~                                                                                                         
+;      CE1   NE2   ND1   HE1                                                                               |~                                                                                                         
+        N    -C    CA    HN                                                                                |~                                                                                                         
+        C    CA    +N     O 
+
+  968   965   970   969     2
+  968   970   965   969     2
+
+  ND1 CG  CE1 HD1          
+
+ 963  964  965  973 9
+
